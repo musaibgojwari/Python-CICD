@@ -13,8 +13,9 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - pwd
+      - echo "Listing"
       - ls -al
-      - pip install -r Python-CICD/requirements.txt
+      # - pip install -r Python-CICD/requirements.txt
   build:
     commands:
       - echo "Running tests..."
