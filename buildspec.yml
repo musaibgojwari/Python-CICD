@@ -12,6 +12,9 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
+      - pwd
+      - ls -al
+      - ls -al Python-CICD
       - pip install -r Python-CICD/requirements.txt
   build:
     commands:
