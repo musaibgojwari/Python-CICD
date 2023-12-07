@@ -5,3 +5,4 @@ set -e
 container_id=docker -ps | awk " " {print $1}
 docker rm $container_id
 # need to be checked
+# yes
