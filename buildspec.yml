@@ -15,7 +15,7 @@ phases:
       - pwd
       - echo "Listing"
       - ls -al
-      # - pip install -r Python-CICD/requirements.txt
+      - pip install -r Python-CICD/requirements.txt
   build:
     commands:
       - echo "Running tests..."
@@ -30,4 +30,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: Python-CICD
+  base-directory: ./
